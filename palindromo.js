@@ -9,14 +9,14 @@ function reverseString(j) {
     return newString;
 }
 
-word = prompt('Insert the phrase or word:');
+word = prompt('Inserte la palabra o frase');
 let newWord = word.replace(/ /g, "");
 console.log(newWord);
 console.log(reverseString(newWord));
 
 if (newWord == reverseString(newWord)){
-    console.log('The string '+newWord+ ' is a palindrome.');
+    console.log('La palabra '+newWord+ ' es un palindromo.');
 
 }else{
-    console.log('The string '+newWord+ ' is not a palindrome.')
+    console.log('La palabra '+newWord+ ' no es un palindromo.')
 }
